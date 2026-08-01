@@ -2,6 +2,9 @@
 
 This exercise showcases how to leverage Python libraries (Pandas and Pandera) for DQM procedures: Data validation and data cleansing.
 
+Discover the full article: 
+https://dev.to/kitchen_code/data-quality-management-data-validation-and-data-cleansing-with-pandas-and-pandera-3elp
+
 ## Features
 
 - Data cleansing with Pandas

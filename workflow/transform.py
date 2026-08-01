@@ -2,8 +2,8 @@ import pandas as pd
 import pandera.pandas as pa
 from pandera import DateTime
 
-def transform_data(file_data):
-    df = pd.DataFrame(file_data)
+def transform_data(df):
+    df = pd.DataFrame(df)
 
     # data cleaning: rename columns
     df.rename(columns={'Transaction ID': 'transaction_id', 'Item': 'item', 'Quantity': 'quantity', 'Price Per Unit': 'price_per_unit', 'Total Spent': 'total_spent', 'Payment Method': 'payment_method', 'Location': 'location', 'Transaction Date': 'transaction_date'}, inplace=True)
